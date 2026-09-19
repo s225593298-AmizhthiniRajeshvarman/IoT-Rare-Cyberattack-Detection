@@ -1,0 +1,2 @@
+Model,Imbalance_Method,Original_Training_Rows,Resampled_Training_Rows,SMOTE_Time_Seconds,Macro_Precision,Macro_Recall,Macro_F1,Rare_Avg_Precision,Rare_Avg_Recall,Rare_Avg_F1,Training_Time_Seconds,Inference_Time_Seconds,Model_Size_MB
+Random Forest,SMOTE,653610,2383502,23.527376600002754,0.6433929172356836,0.6321147505652263,0.6341169298777176,0.4682608749596531,0.4658957502439316,0.46631098069722904,378.61408830000437,25.818120399999316,14319.566884994507

@@ -1,0 +1,21 @@
+#Large datasets
+02_Dataset/MERGED_CSV/
+02_Dataset/*.csv
+02_Dataset/*.zip
+
+#Saved ML models
+04_Results/*.pkl
+
+#Python files
+__pycache__/
+*.pyc
+
+#Virtual environments
+.venv/
+venv/
+
+#VS Code
+.vscode/
+
+#Microsoft Word temporary files
+~$*

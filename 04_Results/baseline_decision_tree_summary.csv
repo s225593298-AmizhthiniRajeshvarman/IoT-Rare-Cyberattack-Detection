@@ -1,0 +1,2 @@
+Model,Imbalance_Method,Macro_Precision,Macro_Recall,Macro_F1,Training_Time_Seconds,Inference_Time_Seconds,Model_Size_MB
+Decision Tree,None,0.5928301482869205,0.59165724226316,0.5911341627925308,11.028937700029928,0.10922560002654791,93.22006702423096

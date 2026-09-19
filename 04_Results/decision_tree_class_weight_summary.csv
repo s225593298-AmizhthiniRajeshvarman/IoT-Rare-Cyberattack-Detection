@@ -1,0 +1,2 @@
+Model,Imbalance_Method,Macro_Precision,Macro_Recall,Macro_F1,Rare_Avg_Precision,Rare_Avg_Recall,Rare_Avg_F1,Training_Time_Seconds,Inference_Time_Seconds,Model_Size_MB
+Decision Tree,Class Weighting,0.5893664883753875,0.589993706284399,0.589182552065205,0.4034931541175541,0.40886226659894087,0.405909552619267,12.149601300014183,0.11083429999416694,99.38267421722412

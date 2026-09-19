@@ -1,0 +1,2 @@
+Model,Imbalance_Method,Original_Training_Rows,Resampled_Training_Rows,Macro_Precision,Macro_Recall,Macro_F1,Rare_Avg_Precision,Rare_Avg_Recall,Rare_Avg_F1,Training_Time_Seconds,Inference_Time_Seconds,Model_Size_MB
+Decision Tree,Random Undersampling,653610,32062,0.5528233340276133,0.5774210854016787,0.5493948588557762,0.3781548846364893,0.38158758328013936,0.36790767743531483,0.5123756999964826,0.07604389998596162,6.199645042419434

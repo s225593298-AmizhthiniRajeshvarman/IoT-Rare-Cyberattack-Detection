@@ -1,0 +1,2 @@
+Model,Imbalance_Method,Original_Training_Rows,Resampled_Training_Rows,SMOTE_Time_Seconds,Macro_Precision,Macro_Recall,Macro_F1,Rare_Avg_Precision,Rare_Avg_Recall,Rare_Avg_F1,Training_Time_Seconds,Inference_Time_Seconds,Model_Size_MB
+Logistic Regression,SMOTE,653610,2383502,20.63859360000015,0.5530451518287544,0.5708075025931753,0.5357734636122272,0.38431816138204095,0.3564376319025323,0.34235969009075384,840.0642045,0.16598290000001725,0.013316154479980469

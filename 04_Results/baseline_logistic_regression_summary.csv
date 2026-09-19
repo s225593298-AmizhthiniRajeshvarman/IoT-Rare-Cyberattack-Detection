@@ -1,0 +1,2 @@
+Model,Imbalance_Method,Macro_Precision,Macro_Recall,Macro_F1,Rare_Avg_Precision,Rare_Avg_Recall,Rare_Avg_F1,Training_Time_Seconds,Inference_Time_Seconds,Model_Size_MB
+Logistic Regression,None,0.6164348747492485,0.535005007675684,0.5365125222277292,0.4399718162860303,0.3169930960075897,0.33517678125342787,687.6863570999703,0.1316326999804005,0.013316154479980469

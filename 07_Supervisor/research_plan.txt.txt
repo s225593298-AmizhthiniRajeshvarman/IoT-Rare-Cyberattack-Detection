@@ -1,0 +1,55 @@
+I will compare several lightweight machine-learning models on imbalanced IoT network traffic to see how well they detect rare cyberattacks, and I will also compare their computational efficiency.
+
+Main dataset: CICIoT2023
+Main focus: Rare attack detection under class imbalance
+Secondary focus: Lightweight performance such as training time, inference time and model size
+
+Planned models:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- LightGBM
+
+Planned imbalance methods:
+- No balancing
+- Class weighting
+- Random undersampling
+- SMOTE
+
+Working research questions:
+
+RQ1: How well do lightweight machine-learning models detect rare cyberattacks in imbalanced IoT network traffic?
+
+RQ2: How do different class-imbalance handling methods affect rare-attack detection performance?
+
+RQ3: What trade-off exists between detection performance and computational efficiency for the selected lightweight machine-learning models?
+
+Planned evaluation metrics:
+
+Detection performance:
+- Precision
+- Recall
+- F1-score
+- Macro-F1
+- Confusion matrix
+
+Lightweight / efficiency measures:
+- Training time
+- Inference time
+- Model size
+- Memory usage if practical
+
+Planned classification setup:
+
+Primary approach:
+- Multiclass classification focused on attack categories/classes
+
+Reason:
+- The research focuses on rare cyberattacks, so I need to evaluate how well the models detect minority attack classes rather than only separating attack vs benign traffic.
+
+Possible secondary baseline:
+- Binary classification: Benign vs Attack
+
+Rare attack definition:
+
+For this research, a rare attack will mean an attack class that has substantially fewer samples than the dominant classes in the dataset. The exact threshold for calling a class "rare" will be decided after inspecting the class distribution of CICIoT2023. I will report the number and percentage of samples for each class before choosing the rare classes.
